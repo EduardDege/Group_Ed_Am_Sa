@@ -61,7 +61,7 @@ public class Test extends Application {
 		root = new Group();
 		Button btn = new Button("-0.01");
 		Button btn1 = new Button("+0.01");
-		Label l = new Label ("Bitte nicht über 1.99 gehen also nutze die Taste -0.01");
+		Label l = new Label ("Bitte nicht Ã¼ber 1.99 gehen also nutze die Taste -0.01");
 		btn1.setLayoutX(200);
 		btn1.setLayoutY(200);
 		Rectangle panel = new Rectangle(600, 400, Color.WHITESMOKE);
@@ -145,4 +145,5 @@ public class Test extends Application {
 	
 		sinus(1.99);
 	}
+	System.out.println("EZ PZ LEMON SQUEZY");
 }
